@@ -1,9 +1,9 @@
 import random
 import seaborn as sns
 
-comportados = 80 # quantas pessoas preferem colocar no lugar certo, mas se o lugar estiver com algum haltere, elas colocarão em qualquer outro
+comportados = 80 # quantas pessoas preferem devolver o haltere pro local ideal, mas se o local estiver ocupado, elas colocarão em qualquer outro
 bagunceiros = 20 # quantas pessoas não se importam e colocam em locais aleatórios o tempo inteiro
-quantos_testes = 5000 # quantos dias estaremos testando, quanto maior, mais o código demora, mas o resultado é mais confiável
+quantos_testes = 5000 # quantos dias estaremos atestando, quanto maior, mais o código demora, mas o resultado é mais confiável
 
 class Academia:
     def __init__(self):
